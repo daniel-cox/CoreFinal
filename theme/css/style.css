@@ -1810,3 +1810,18 @@ hr {
   .partner-container img {
     vertical-align: bottom;
 }
+i.ti-facebook:hover {
+    color: #4267B2;
+	transition: 0.8s ease;
+}
+
+i.ti-twitter:hover {
+    color: #00acee;
+	transition: 0.8s ease;
+}
+
+i.ti-linkedin:hover {
+    color: #0072b1;
+	transition: 0.8s ease;
+}
+
