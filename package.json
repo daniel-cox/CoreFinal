@@ -1,8 +1,8 @@
 {
-  "name": "smapp-apps",
+  "name": "Corecommerce",
   "version": "1.0.0",
-  "description": "smapp-apps free saas template",
-  "author": "Themefisher",
+  "description": "Private label and seamlessly integrate our platform into your enterprise. Upload your logo, customize colors while using a unique URL for your business.",
+  "author": "CoreCommerce",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",
