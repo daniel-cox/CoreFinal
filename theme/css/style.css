@@ -989,8 +989,8 @@ button:focus,
 	overflow: hidden;
 }
 .gradient-banner::before {
-	background: linear-gradient(-45deg, #197df8, #0131b8 ,#5902b1, #b1028e, rgb(230, 117, 255));
-	animation: gradient 15s ease infinite;
+	background: linear-gradient(-45deg, #197df8, #0131b8 ,#5902b1, #9a28bd, rgb(43, 28, 176));
+	animation: gradient 20s ease infinite;
 	position: absolute;
 	content: '';
 	bottom: 0;
