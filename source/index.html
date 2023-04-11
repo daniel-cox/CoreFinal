@@ -1,6 +1,139 @@
-@@include('header.htm')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Powering All Things E-Commerce | CoreCommerce</title>
+  <link rel="canonical" href="https://www.corecommerce.com/" />
+  <meta name="description" content="CoreCommerce provides businesses, web developers, ISOs/agents, &amp; software partners with the tools to seamlessly accept secure online payments." />
+  <meta name=“keywords” content=“e-commerce,payment processing,payments solutions,hosted payments page,hpp,shift4 alternative,shift 4 alternative,shopify alternative,bigcommerce alternative,volusion alternative,shift4shop alternative,bigcartel alternative,swipe simple alternative,fluidpay alternative,stripe alternative”/>
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="CoreCommerce: All things Ecommerce">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="CoreCommerce">
+  <meta name="generator" content="CoreCommerce">
+  
+  <!-- Website meta -->
+  <meta name="CoreCommerce" content="CoreCommerce" />
 
-@@include('blocks/navigation.htm', {"home":"active", "home1": "active"})
+  <!-- Structured Data Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "CoreCommerce",
+      "url": "https://www.corecommerce.com/",
+      "logo": "https://www.corecommerce.com/images/logo.png",
+      "description": "CoreCommerce provides businesses, web developers, ISOs/agents, and software partners with ecommerce solutions that include online store creation, secure payment processing, and marketing tools.",
+      "sameAs": [
+        "https://www.facebook.com/corecommerce",
+        "https://twitter.com/corecommerce",
+        "https://www.linkedin.com/company/corecommerce",
+        "https://www.instagram.com/corecommerce/"
+      ]
+    }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/regular.min.css" />
+
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+<!-- GA Google Analytics @ https://m0n.co/ga -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GZKQML8CZZ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-GZKQML8CZZ');
+	</script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144583767-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-144583767-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144583767-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-144583767-1');
+</script>
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Home
+          </a>
+        </li>
+        <li class="nav-item dropdown @@pages">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item @@team" href="/shopping-cart/">Shopping Cart</a></li>
+            <li><a class="dropdown-item @@career" href="/hosted-payments/">CoreGateway</a></li>
+            <li class="dropdown dropdown-submenu dropleft">
+              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                <li><a class="dropdown-item" href="/knowledge-base">Knowledge Base</a></li>
+                <li><a class="dropdown-item" href="https://support.corecommerce.com/support/home">Help & Support</a></li>
+				<li><a class="dropdown-item" href="https://docs.mypaymentnow.com/">Gateway Developer Guide</a></li>
+                <li><a class="dropdown-item" href="https://docs.mypaymentnow.com/shopping/index.html#post--a-addCategory">Shopping Cart Developer Guide</a></li>
+              </ul>
+            </li>
+			<li><a class="dropdown-item" href="https://www.corecommerce.com/hosted-payments">Hosted Payments</a></li>
+            <li><a class="dropdown-item" href="#">Agents, ISOs, & Vars</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Shopping Cart Login</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Partner Login</a>
+		  </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <!--====================================
 =            Hero Section            =
@@ -27,10 +160,10 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-				<h1 class="text-white font-weight-bold mb-4">Showcase your app with Small Apps</h1>
-				<p class="text-white mb-5">Besides its beautiful design. Laapp is an incredibly rich core framework for you to
-					showcase your App.</p>
-				<a href="FAQ.html" class="btn btn-main-md">Download Now</a>
+				<h1 class="text-white font-weight-bold mb-4">Ecommerce Simplified</h1>
+				<p class="text-white mb-5">The Core Platform provides businesses, web developers, ISOs/agents and software partners with the tools to seamlessly accept online payments.
+				</p>
+				<button type="button" class="btn- btn-primary btn-lg"><a href ="https://www.corecommerce.com/free-trial/">Free Trial</a></button>
 			</div>
 			<div class="col-md-6 text-center order-1 order-md-2">
 				<img class="img-fluid" src="images/mobile.png" alt="screenshot">
@@ -45,22 +178,19 @@
 		<div class="rounded shadow p-5 bg-white">
 			<div class="row">
 				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-					<i class="ti-paint-bucket text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">themes made easy</h3>
-					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
-						tempore ipsam dignissimos molestias.</p>
+					<i class="ti-shopping-cart-full text-primary h1"></i>
+					<h3 class="mt-4 text-capitalize h5 ">Shopping cart</h3>
+					<p class="regular text-muted">An easy-to-use and customizable platform that offers a range of features to help businesses of all sizes grow their online sales and streamline their operations.</p>
 				</div>
 				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-					<i class="ti-shine text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">powerful design</h3>
-					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
-						tempore ipsam dignissimos molestias.</p>
+					<i class="ti-harddrives text-primary h1"></i>
+					<h3 class="mt-4 text-capitalize h5 ">CoreGateway</h3>
+					<p class="regular text-muted">Offers a user-friendly interface and robust reporting tools that allow businesses to monitor & analyze their payment data in real time, making it easier manage all aspects of your business.</p>
 				</div>
 				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
-					<i class="ti-thought text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">creative content</h3>
-					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
-						tempore ipsam dignissimos molestias.</p>
+					<i class="ti-mobile text-primary h1"></i>
+					<h3 class="mt-4 text-capitalize h5 ">Hosted Payments</h3>
+					<p class="regular text-muted">Hoisted Payments Pages provide businesses with a fully PCI compliant & secure solution that protects customer payment data & offers peace of mind to both businesses & their customers.</p>
 					</p>
 				</div>
 			</div>
@@ -77,30 +207,28 @@
 			<div class="col-lg-6 ml-auto justify-content-center">
 				<!-- Feature Mockup -->
 				<div class="image-content" data-aos="fade-right">
-					<img class="img-fluid" src="images/feature/feature-new-01.jpg" alt="iphone">
+					<img class="img-fluid" src="images/coreDashboard.png" alt="iphone">
 				</div>
 			</div>
 			<div class="col-lg-6 mr-auto align-self-center">
 				<div class="feature-content">
 					<!-- Feature Title -->
-					<h2>Increase your productivity with <a
-							href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a></h2>
+					<h2>Shopping Cart</h2>
 					<!-- Feature Description -->
-					<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat.</p>
+					<p class="desc">A shopping cart is the backbone of any online store, and choosing the right one can make a significant difference in a business's bottom line.
+						 CoreCommerce is easy to navigate, reliable, and offers advanced features like automated 
+						 shipping and tax calculations can help businesses compete in today's crowded e-commerce marketplace.</p>
 				</div>
 				<!-- Testimonial Quote -->
 				<div class="testimonial">
 					<p>
-						"InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one
-						place."
+						"I've been with CoreCommerce for over 14 years. I would recommend CoreCommerce to anyone starting an online business.
+						There are many templates to choose from and the administration area is very user-friendly."
 					</p>
 					<ul class="list-inline meta">
 						<li class="list-inline-item">
-							<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="">
 						</li>
-						<li class="list-inline-item">Jonathon Andrew , Themefisher.com</li>
+						<li class="list-inline-item">- Connie Wallace, touchoftapestry</li>
 					</ul>
 				</div>
 			</div>
@@ -114,31 +242,29 @@
 			<div class="col-lg-6 ml-auto align-self-center">
 				<div class="feature-content">
 					<!-- Feature Title -->
-					<h2>Increase your productivity with <a
-							href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a></h2>
+					<h2>CoreGateway</h2>
 					<!-- Feature Description -->
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-						ea commodo consequat.</p>
+					<p>Choosing the right payment gateway can help businesses boost their online sales and improve their customer experience. 
+					   CoreGateway is a feature-rich payment processing platform that offers advanced tools such as recurring billing, Hoted Payments Pages, and real-time reporting. With CoreGateway,
+					    businesses can streamline their payment processing operations, reduce manual errors, and increase customer trust and satisfaction.</p>
 				</div>
 				<!-- Testimonial Quote -->
 				<div class="testimonial">
 					<p>
-						"InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one
-						place."
+						"CoreGateway has made payment processing a breeze for my business.
+						 The intuitive platform and excellent customer support make it a no-brainer choice for anyone looking for a reliable payment processing solution."
 					</p>
 					<ul class="list-inline meta">
 						<li class="list-inline-item">
-							<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="">
 						</li>
-						<li class="list-inline-item">Jonathon Andrew , Themefisher.com</li>
+						<li class="list-inline-item">- Jessica Sotelo, beanstalkbrewing </li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-lg-6 mr-auto justify-content-center">
 				<!-- Feature mockup -->
 				<div class="image-content" data-aos="fade-left">
-					<img class="img-fluid" src="images/feature/feature-new-02.jpg" alt="ipad">
+					<img class="img-fluid" src="images/Mockup2-e1591205950147.png" alt="ipad">
 				</div>
 			</div>
 		</div>
@@ -154,9 +280,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="section-title">
-					<h2>An Interface For Lifestyle</h2>
-					<p><a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a> makes
-						it easy to stay on top of your Life Style. No late tasks. No gimmicks.</p>
+					<h2>Streamline your online business with CoreCommerce</h2>
 				</div>
 			</div>
 		</div>
@@ -164,7 +288,7 @@
 			<div class="col-lg-6 align-self-center">
 				<!-- Feature Image -->
 				<div class="service-thumb left" data-aos="fade-right">
-					<img class="img-fluid" src="images/feature/iphone-ipad.jpg" alt="iphone-ipad">
+					<img class="img-fluid" src="images/feature/ipad.png" alt="iphone-ipad">
 				</div>
 			</div>
 			<div class="col-lg-5 mr-auto align-self-center">
@@ -174,11 +298,12 @@
 							<!-- Service 01 -->
 							<div class="service-item">
 								<!-- Icon -->
-								<i class="ti-bookmark"></i>
+								<i class="ti-layout-media-overlay"></i>
 								<!-- Heading -->
-								<h3>Easy Prototyping</h3>
+								<h3>Virtual Terminal</h3>
 								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
+								<p>A secure online payment processing system that allows you to accept credit, 
+									debit card and ACH payments from customers without the need for a physical terminal or card reader</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12">
@@ -187,9 +312,46 @@
 								<!-- Icon -->
 								<i class="ti-pulse"></i>
 								<!-- Heading -->
-								<h3>Sensor Bridge</h3>
+								<h3>Recurring Payments</h3>
 								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
+								<p>Eliminate the hassle of manual billing and improve cash flow by using our automated payment processing system,
+									 which allows you to schedule recurring payments for your customers and avoid payment delays</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-id-badge"></i>
+								<!-- Heading -->
+								<h3>Customer Vault</h3>
+								<!-- Description -->
+								<p>Store your customers' payment information in a secure and PCI-compliant vault, 
+									allowing for easy and efficient payment processing in the future</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-receipt"></i>
+								<!-- Heading -->
+								<h3>Invoicing</h3>
+								<!-- Description -->
+								<p>Enhance your billing operations and boost customer satisfaction with our invoice creation and delivery system,
+									 allowing you to easily send invoices to customers</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-layout-media-overlay"></i>
+								<!-- Heading -->
+								<h3>Developer API</h3>
+								<!-- Description -->
+								<p>Seamlessly integrate payment processing into your website or app with CoreGateway's flexible and secure API, providing your customers with a seamless payment experience.
+								</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12">
@@ -198,20 +360,10 @@
 								<!-- Icon -->
 								<i class="ti-bar-chart"></i>
 								<!-- Heading -->
-								<h3>Strategist</h3>
+								<h3>Detailed Reporting</h3>
 								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-panel"></i>
-								<!-- Heading -->
-								<h3>Art Direction</h3>
-								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
+								<p>Access comprehensive reporting on your payment processing activity,
+								 empowering you to track transactions, analyze data, and leverage insights to improve your business operations</p>
 							</div>
 						</div>
 					</div>
@@ -232,12 +384,12 @@
 			<div class="col-lg-12">
 				<div class="content-block">
 					<!-- Heading -->
-					<h2>Watch Our Promo Video</h2>
+					<h2>Who we are</h2>
 					<!-- Promotional Speech -->
-					<p>Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et,
-						porttitor at sem. Vivamus </p>
+					<p>CoreCommerce is a comprehensive e-commerce solution, and secure payment processing platform. With over 20 years of experience,
+						CoreCommerce has helped thousands of businesses succeed in the competitive world of online retail. </p>
 					<!-- Popup Video -->
-					<a data-fancybox href="https://www.youtube.com/watch?v=jrkvirglgaQ">
+					<a data-fancybox href="https://www.youtube.com/watch?v=FnNkhTOLMcE">
 						<i class="ti-control-play video"></i>
 					</a>
 				</div>
@@ -248,95 +400,150 @@
 <!--====  End of Video Promo  ====-->
 
 <!--=================================
-=            Testimonial            =
+=            Partners            =
 ==================================-->
-<section class="section testimonial" id="testimonial">
-	<div class="container">
+<section class="section w-100" id="partners">
+	<div class="container text-center">
+		<h2 class=" partnerHeading mb-4">CoreCommerce partners with industry leaders for ecommerce solutions</h2>
+			<div class="partner-container">
+				<div class="row">
+					<col-xs-2><img src="./images/partners/Keybank_logo.png" width="auto" class="corePartners mr-4 img-responsive"></col>
+					<col-xs-2><img src="./images/partners/ShipStation.png" width="auto" class="corePartners mr-4 img-responsive"></col>
+					<col-xs-2><img src="./images/partners/Endicia.png" width="auto" class="corePartners mr-4 img-responsive"></col>
+					<col-xs-2><img src="./images/partners/Fresh_Technology.png" width="auto" class="corePartners mr-4 img-responsive"></col>
+					<col-xs-2><img src="./images/partners/Elavon.png" width="auto" class="corePartners mr-4 img-responsive"></col>
+				</row>
+			</div>
+	</div>
+</section>
+<!--====  End of Partners  ====-->
+
+<section class="call-to-action-app section bg-blue">
+	<div class="container ">
 		<div class="row">
 			<div class="col-lg-12">
-				<!-- Testimonial Slider -->
-				<div class="testimonial-slider owl-carousel owl-theme">
-					<!-- Testimonial 01 -->
-					<div class="item">
-						<div class="block shadow">
-							<!-- Speech -->
-							<p>
-								Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada.
-								Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor
-								sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi,
-								pretium ut lacinia in, elementum id enim.
-							</p>
-							<!-- Person Thumb -->
-							<div class="image">
-								<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="image">
-							</div>
-							<!-- Name and Company -->
-							<cite>Abraham Linkon , Themefisher.com</cite>
-						</div>
-					</div>
-					<!-- Testimonial 01 -->
-					<div class="item">
-						<div class="block shadow">
-							<!-- Speech -->
-							<p>
-								Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada.
-								Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor
-								sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi,
-								pretium ut lacinia in, elementum id enim.
-							</p>
-							<!-- Person Thumb -->
-							<div class="image">
-								<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="image">
-							</div>
-							<!-- Name and Company -->
-							<cite>Abraham Linkon , Themefisher.com</cite>
-						</div>
-					</div>
-					<!-- Testimonial 01 -->
-					<div class="item">
-						<div class="block shadow">
-							<!-- Speech -->
-							<p>
-								Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada.
-								Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor
-								sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi,
-								pretium ut lacinia in, elementum id enim.
-							</p>
-							<!-- Person Thumb -->
-							<div class="image">
-								<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="image">
-							</div>
-							<!-- Name and Company -->
-							<cite>Abraham Linkon , Themefisher.com</cite>
-						</div>
-					</div>
-					<!-- Testimonial 01 -->
-					<div class="item">
-						<div class="block shadow">
-							<!-- Speech -->
-							<p>
-								Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada.
-								Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor
-								sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi,
-								pretium ut lacinia in, elementum id enim.
-							</p>
-							<!-- Person Thumb -->
-							<div class="image">
-								<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="image">
-							</div>
-							<!-- Name and Company -->
-							<cite>Abraham Linkon , Themefisher.com</cite>
-						</div>
-					</div>
-				</div>
+				<h2>Empowering Agents, ISOs, and VARs</h2>
+<p>Discover how our solution can help agents, ISOs, and VARs drive growth and success in their respective industries.</p>
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a href="/contact-us" class="btn btn-rounded-icon">
+							<i class="ti-agenda"></i>
+							Agent
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="/contact-us" class="btn btn-rounded-icon">
+							<i class="ti-shopping-cart"></i>
+							ISOs
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="/contact-us" class="btn btn-rounded-icon">
+							<i class="ti-user"></i>
+							VARs
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </section>
-<!--====  End of Testimonial  ====-->
 
-@@include('blocks/call-to-action-app.htm')
+<!--============================
+=            Footer            =
+=============================-->
+<footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+          <div class="block">
+            <a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+            <!-- Social Site Icons -->
+            <ul class="social-icon list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/corecommerce1"><i class="ti-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/corecommerce"><i class="ti-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/company/corecommerce"><i class="ti-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Product</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="/shopping-cart">Shopping Cart</a></li>
+              <li><a href="/corepayments">Gateway</a></li>
+              <li><a href="/hosted-payments">Hosted Payments</a></li>
+			  <li><a href="/agents-isos-and-vars">Agents, Isos, & Vars</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Resources</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="/knowledge-base">Knowledge Base</a></li>
+              <li><a href="https://support.corecommerce.com/support/home">Help & Support</a></li>
+              <li><a href="/privacy-policy">Privacy</a></li>
+			  <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Company</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="#">Careers</a></li>
+			  <li><a href="/contact-us">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Developers</h6>
+            <!-- links -->
+            <ul>
+				<li><a href="https://docs.mypaymentnow.com/">Gateway Developer Guide</a></li>
+				<li><a href="https://docs.mypaymentnow.com/shopping/index.html#post--a-addCategory">Shopping Cart Developer Guide</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script><a href="https://www.corecom.com/"> CoreCommerce LLC</a></small class="text-secondary">
+  </div>
+</footer>
 
-@@include('blocks/footer.htm')
 
-@@include('footer.htm')
+  <!-- To Top -->
+  <div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div>
+  
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  
+  <script src="js/script.js"></script>
+</body>
+
+</html>
